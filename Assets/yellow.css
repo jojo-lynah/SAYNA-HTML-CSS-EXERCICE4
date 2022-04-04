@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: TOILE;
+    src: url("Far-From\ Homecoming\ Updated.otf");
+}
+.spi{
+font-family: TOILE;
+}
+nav{
+    background-color: #F1C530;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.love img{
+    height: 20px;
+}
+.lien{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.lien a{
+    text-decoration: none;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+section{
+    background-color: #F1C530;
+}
+.lo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.qo{
+    position: relative;
+}
+.tol{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: #FFFFFF;
+}
+.bor{
+    border: #000000 solid 3px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    border-top: none;
+}
+.la{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.le{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left:100px;
+    padding-right: 50px;
+}
+.li{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 300px;
+}
+footer{
+    background-color: #000000;
+      text-align: left;
+      color: #FFFFFF;
+  }
+  .flo{
+    display: flex;
+  justify-content: space-around;
+    padding-top: 20px;
+  }
+  .flo a{
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: small;
+  }
+select{
+    background-color: #F1C530;
+    border-radius: 20px;
+}
+   .pied img{
+     background-color: #F1C530;
+      border-radius: 20px;
+      margin-top: 50px;
+  }
+  .pied{
+      text-align: center;
+  }
+  .pied input{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .logo img{
+      height: 20px;
+  }
+  @media screen and (max-width:500px) {
+    .lien a{
+        display: none;
+     }
+     nav{
+      background: #000;
+     }
+     .pic{
+         display: block;
+     }
+     .pére{
+         display: flex;
+       flex-direction: column;
+       text-align: center;
+     }
+     .non{
+         position: absolute;
+         text-align: center;
+     }
+      .lo{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          padding-left: 55px;
+          padding-right: 81px;
+      }
+      .la{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       padding-left: 53px;
+       padding-right: 80px;
+      }
+      .le{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 53px;
+        padding-right: 80px;
+      }
+      .li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 72px;
+        padding-right: 62px;
+      }
+  }
+  @media screen and (max-width:500px) {
+     .flo{
+        display: block;
+     }
+     .logo{
+         position: absolute;
+         padding-left: 180px;
+         padding-top: 50px
+            }
+            .tout{
+                position: absolute;
+                margin-left: 400px;
+                margin-top: -80px;
+               }
+  }
